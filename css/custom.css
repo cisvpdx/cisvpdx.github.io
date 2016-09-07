@@ -5,3 +5,54 @@ ul li {
 #logo {
   float: left;
 }
+
+#main-nav {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+#header {
+  background:url('../img/header.jpg');
+  height: 800px;
+  margin: 0;
+  padding: 200px 0 260px 0;
+  background-size: cover;
+}
+
+#about {
+  background-color: #FEF9F0;
+  color: #333333;
+  height:200px;
+  margin: 0 auto;
+  padding: 200px 0 260px 0;
+}
+
+#programs {
+  background-color: #AEE8FB;
+  color: #333333;
+  height:300px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 200px 0;
+}
+
+#calendar {
+  background-color: #00BCD1;
+  color: #333333;
+  height:500px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 200px 0 260px 0;
+}
+
+#contact {
+  background-color: #76D3DE;
+  color: #333333;
+  height:300px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 200px 0;
+}
+
+#h1 {
+  font-size: 250%;
+}

@@ -6,40 +6,122 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   <title>CISV PDX website</title>
+  <!--animate.css-->
+  <link rel="stylesheet" href="http://s.mlcdn.co/animate.css">
   <!-- Bootstrap -->
+  <link href="css/animate.css" rel="stylesheet">
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/custom.css" rel="stylesheet">
-</head>
-<body>
-<!--header start-->
-  <header id= "header">
-  <div class id= "content">
-  <div id="logo"><a href="">CISV</a></div>
-  <nav id="nav">
-    <ul>
-      <li><a href="#slide1" class="active" title="next section" >Slide</a></li>
-      <li><a href="#slide2" title="Next Section">Slide 2</a></li>
-      <li><a href="#slide3" title="Next Section">Slide 3</a></li>
-      <li><a href="#slide4" title="Next Section">Slide 4</a></li>
-      <li><a href="#slide5" title="Next Section">Slide 5</a></li>
-    </ul>
-  </nav>
-  </div>
-  </header>
-<!--slide start-->
-  <div id="slide1">
-  <div class id= "content">
-  <h2>Test</test>
-  </div>
-  </div>
-  <div id="slide2">
-  <div class id= "content">
-  <h2>Test</test>
-  </div>
-  </div>
+  <!-- Custom Fonts-->
+  <link href='https://fonts.googleapis.com/css?family=Lato:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/jquery-1.10.2.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body id="page-top">
+  <nav id="main-nav" class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <div id="logo"><a class="navbar-brand page-scroll" href="#page-top">CISV</a></div>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <!--li><a href="#home" class="page-scroll">Home</a></li-->
+          <li><a href="#about" class="page-scroll">About</a></li>
+          <li><a href="#programs" class="page-scroll">Programs</a></li>
+          <li><a href="#calendar" class="page-scroll">Calendar</a></li>
+          <li><a href="#contact" class="page-scroll">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!--slide start-->
+  <header id="header">
+    <div class="header-content">
+      <div class="header-content-inner">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+          <h2 id="homeHeading">Building Global Friendship</h2>
+          <h1 class="animated slideInDown">CISV PDX</h1>
+          <h2>Bringing The World Together</h2>
+          <h3>From Portland, Oregon</h3>
+          <a href="#about" class="btn btn-primary btn-xl page-scroll">test</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="about" class="animated slideInDown">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+        <h2 class="section-heading">What is CISV?</h2>
+        <hr>
+        <p>CISV International was founded in 1950 by Dorris Allen and aims to educate and inspire action for a more just and peaceful world.</p>
+        <br>
+        <p> CISV operates in over 80 countries (National Associations) under the CISV international umbrella organization. Each National Associations supports its local chapters.</p>
+        <a href="#programs" class="btn btn-primary btn-xl page-scroll">test</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="programs">
+    <div class id="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+        <h2 class="section-heading">What we do</h2>
+        <hr>
+        <p>We are currently establishing ourselves as a registered non profit organization.</p>
+        <a href="#calendar" class="btn btn-primary btn-xl page-scroll">test</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="calendar">
+    <div class id="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Test3!</h2>
+        <hr>
+        <p>test</p>
+        <a href="#contact" class="btn btn-primary btn-xl page-scroll">test</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class id="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Test4!</h2>
+        <hr>
+        <p class="animated infinite slideInDown">test</p>
+        <a href="#page-top" class="btn btn-primary btn-xl page-scroll">test</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- jQuery -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+  <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+  <!-- Theme JavaScript -->
+  <script src="js/creative.min.js"></script>
+
 </body>
 </html>
