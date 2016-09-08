@@ -1,5 +1,10 @@
+#body {
+  font-family:'Merriweather', serif;
+}
+
 ul li {
   display: inline;
+  color: #51a0c3;
 }
 
 #logo {
@@ -13,6 +18,9 @@ ul li {
   background: #fff;
 }
 
+#navbar-custom li a{
+  color: #51a0c3;
+}
 #header {
   background:url('../img/header.jpg');
   height: 800px;
@@ -22,7 +30,7 @@ ul li {
 }
 
 #about {
-  background-color: #FEF9F0;
+  background-color: #70aaac;
   color: #333333;
   height:200px;
   margin: 0 auto;
@@ -30,7 +38,7 @@ ul li {
 }
 
 #programs {
-  background-color: #AEE8FB;
+  background-color: #5acec2;
   color: #333333;
   height:300px;
   margin: 0 auto;
@@ -39,16 +47,16 @@ ul li {
 }
 
 #calendar {
-  background-color: #00BCD1;
+  background-color: #ff5600;
   color: #333333;
-  height:500px;
+  height:650px;
   margin: 0 auto;
   overflow: hidden;
-  padding: 200px 0 260px 0;
+  padding: 40px 0 260px 0;
 }
 
 #contact {
-  background-color: #76D3DE;
+  background-color: #9ceff9;
   color: #333333;
   height:300px;
   margin: 0 auto;
