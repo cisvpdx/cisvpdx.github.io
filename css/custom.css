@@ -1,5 +1,5 @@
-#body {
-  font-family:'Merriweather', serif;
+body {
+  font-family: 'Lato', serif;
 }
 
 ul li {
@@ -32,18 +32,19 @@ ul li {
 #about {
   background-color: #70aaac;
   color: #333333;
-  height:200px;
+  height:500px;
   margin: 0 auto;
-  padding: 200px 0 260px 0;
+  padding: 40px 0 260px 0;
+  content: normal;
 }
 
 #programs {
   background-color: #5acec2;
   color: #333333;
-  height:300px;
+  height:500px;
   margin: 0 auto;
   overflow: hidden;
-  padding: 200px 0;
+  padding: 40px 0 260px 0;
 }
 
 #calendar {
@@ -66,4 +67,8 @@ ul li {
 
 #h1 {
   font-size: 250%;
+}
+
+.glyphicon {
+  font-size: 50px;
 }
