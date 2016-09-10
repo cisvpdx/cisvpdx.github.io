@@ -7,6 +7,10 @@ ul li {
   color: #51a0c3;
 }
 
+p {
+  font-size: 18px;
+}
+
 #logo {
   float: left;
   height: 50px;
