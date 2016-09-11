@@ -1,0 +1,26 @@
+@media (max-width: 419px) {
+  #programs {
+    height: 940px;
+  }
+
+  #contact {
+    height: 400px;
+  }
+}
+
+@media (min-width: 420px)
+and (max-width: 510px) {
+  #programs {
+    height: 900px;
+  }
+}
+
+@media (min-width: 511px)
+and (max-width: 900px){
+  #programs {
+    height: 780px;
+  }
+  #contact {
+    height: 400px;
+  }
+}
