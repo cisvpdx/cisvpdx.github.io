@@ -1,4 +1,9 @@
 @media (max-width: 419px) {
+
+  #about {
+    height: 700px;
+  }
+
   #programs {
     height: 940px;
   }
