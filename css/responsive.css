@@ -11,8 +11,13 @@
   #contact {
     height: 400px;
   }
+
   #calendar {
     height: 500px;
+  }
+
+  #gallery {
+    height: 890px;
   }
 }
 
@@ -25,6 +30,11 @@ and (max-width: 510px) {
   #calendar {
     height: 500px;
   }
+
+  #gallery {
+    height: 1300px;
+  }
+
 }
 
 @media (min-width: 511px)
@@ -38,6 +48,11 @@ and (max-width: 900px){
   #calendar {
     height: 750px;
   }
+
+  #gallery {
+    height: 1700px;
+  }
+
 }
 
 @media (min-width: 901px) {
