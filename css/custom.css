@@ -31,6 +31,7 @@ p {
   margin: 0;
   padding: 200px 0 260px 0;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 #about {
@@ -95,12 +96,25 @@ p {
 
 h1 {
   font-size: 400%;
-  font-weight; bold;
+  font-weight:bold;
+  font-family: 'Sansita', sans-serif;
+  color:white;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 h2 {
   font-size: 300%;
   font-weight: lighter;
+  font-family: 'Sansita', sans-serif;
+  color:white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+h3 {
+  font-size: 200%;
+  font-family: 'Sansita', sans-serif;
+  color:white;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .glyphicon {
